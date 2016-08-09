@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #4044aa;
+}
+
+a {
+  color:#427fed;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color:#427fed;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight:300;
+  color:#555;
+  margin:30px auto 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight:300;
+  color:#555;
+  margin:30px auto 0px;
+  text-align: center;
+}
+
+.wrapper {
+  font-family: 'Open Sans', sans-serif;
+  background-color:#f7f7f7;
+  border-radius: 5px;
+  margin:0 auto;
+  width: 60%;
+  height: 100%;
+
+  padding:50px;
+}
+
+#sum {
+  text-align: center;
+}
+
+.round {
+  width: 250px;
+  height: 250px;
+  float:left;
+}
+
+.email {
+  font-size: 14px;
+  text-align:right;
+}
