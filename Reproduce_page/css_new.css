@@ -1,0 +1,114 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color:#427fed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color:#427fed;
+  text-decoration: none;
+}
+
+#container {
+  /*width:45%;*/
+  margin:30px auto 0px;
+  text-align:center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight:300;
+  color:#555;
+  margin-bottom:20px;
+}
+
+h2 {
+  color: grey;
+  font-size: 18px;
+  font-weight: 400;
+  color:#555;
+}
+
+.wrapper {
+  background-color:#f7f7f7;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  margin:0 auto;
+  width: 274px;
+  padding:40px;
+}
+
+.round {
+  border-radius:75px;
+}
+
+#account {
+  position: relative;
+  font-style: normal;
+}
+
+.avatar {
+  position: relative;
+  clip: circle(60px at center);
+}
+
+.avatar:link {
+  color: none;
+}
+
+td {
+  position: relative;
+}
+
+input[type=password] {
+  padding: 15px 32px;
+  font-size: 15px;
+  width:75%;
+  margin: 0 auto 8px;
+}
+
+.button-primary {
+  background-color: #008CFF;
+  border: none;
+  margin:0 auto;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 5px / 8px;
+  /*left: -20px;*/
+  width: 100%;
+}
+
+.button-primary:hover {
+  box-shadow:0px 0px 3px rgba(55, 131, 244, 0.9);
+}
+
+.alignleft {
+  float:left;
+}
+
+.social-icons {
+  margin:0 auto;
+}
+
+.social-icons-test {
+  margin:0 auto;
+  display:inline-block;
+}
+
+.social-icons-test img {
+  width:30px;
+  height:30px;
+}
+
+/* clear:both; <-- to seperate rows */
